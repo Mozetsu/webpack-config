@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.styled-container {
+  background-color: #fdf2ff;
+  padding: 2rem;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px dashed rgb(44, 97, 153);
+}
+
+.styled-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #638ddb;
+  text-decoration: underline;
+}
