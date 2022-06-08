@@ -1,4 +1,4 @@
-name: React with Webpack
+name: Integration
 
 on:
   push:
@@ -45,4 +45,6 @@ jobs:
           cache: 'npm'
 
       - name: Tests
-        run: npm test
+        run: |
+          npm install
+          npm test
