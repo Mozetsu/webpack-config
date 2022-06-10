@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: alpine-latest
 
     strategy:
       matrix:
@@ -29,7 +29,7 @@ jobs:
           npm run build
 
   unit-tests:
-    runs-on: ubuntu-latest
+    runs-on: alpine-latest
 
     strategy:
       matrix:
